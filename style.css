@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    color: rgb(117, 114, 114);
+    line-height: 50px;
+    margin: 150px 250px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+h1{
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+    margin: 5px 10px;
+   
+}
+body, input, label {
+    color: rgb(223, 221, 221);
+    
+}
+input{
+    border-bottom: 2px solid rgb(153, 154, 153) !important;
+    outline: none;
+    width: 800px;
+}
+input[type="checkbox"]{
+    width: 10px !important ;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 13px;
+    height: 13px;
+    border: 2px solid rgb(88, 86, 86);
+
+}
+input::placeholder {
+    color: #bfbcbc; /* Change the color to your desired color */
+  }
+
+  input[type="checkbox"]:checked{
+    background-color: rgb(155, 155, 155); /* Change background color if needed */
+    border: 2px solid black; /* Change border color if needed */
+
+}
+    
+/* Style the radio button */
+input[type="radio"] {
+    /* Hide the default radio button */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Use a custom radio button */
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 2px solid rgb(88, 86, 86); /* Change border color if needed */
+    background-color: black;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* Style the radio button when checked */
+input[type="radio"]:checked {
+    background-color: rgb(251, 240, 240); /* Change background color if needed */
+    border: 2px solid black; /* Change border color if needed */
+}

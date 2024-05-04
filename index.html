@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="shortcut icon" href="icons8-favicon-16.png" type="image/x-icon">
+    <meta name="description" content="fill your Signupform">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       
+        <h1>Signup</h1>
+    </header>
+
+    <main>
+        
+        <form action="#" method="POST">
+            <input style="border-color: black;border: none; background-color: black; color: white; border-radius: 0;outline:none; padding: 10px; margin: 5px 0;" type="text" id="name" placeholder="Full Name" required>
+          
+
+<br>
+            
+            <input style="background-color: black; color:white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="email" id="email" placeholder="Email" required>
+
+          <br>
+            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="password" placeholder="Password" name="password" required>
+            <br>
+            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="confirm_password" placeholder="Confirm Password" name="confirm_password" required>
+            <br>
+            <input style="background-color: black; color: rgb(117, 115, 115); border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="text" pattern="\d{2}-\d{2}-\d{4}" placeholder="MM/DD/YYYY" id="dob" name="dob" required>
+            <br>
+
+            <input style="  margin: 0px 10px;" type="radio" id="student" name="gender" value="student" required>
+            <label style=" padding: 10px; margin: 0px -10px;" for="student">Student</label>
+            
+            <input style=" margin: 0px 10px;" type="radio" id="employee" name="gender" value="employee" required>
+            <label style=" padding: 5px; margin: 0px -10px;" for="employee">Employee</label>
+
+          <br>
+            <input style=" margin: 0px 10px;" type="checkbox" id="agree" name="interests" value="agree" required>
+            <label  style="  padding: 10px; margin: 5px 0;" for="agree">I agree to all the Terms and conditions</label>
+            <br>
+
+            
+
+            
+            <button style="width: 140px;height: 30px; margin: 0px 10px;" type="submit">Sign Up</button>
+        </form>
+    </main>
+
+    <footer>
+        
+    </footer>
+    
+
+</body>
+</html>
