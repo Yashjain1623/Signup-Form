@@ -25,12 +25,13 @@
             <input style="background-color: black; color:white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="email" id="email" placeholder="Email" required>
 
           <br>
-            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="password" placeholder="Password" name="password" required>
+            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="password" placeholder="Password" name="password" minlength="8" required>
             <br>
             <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="confirm_password" placeholder="Confirm Password" name="confirm_password" required>
             <br>
-            <input style="background-color: black; color: rgb(117, 115, 115); border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="text" pattern="\d{2}-\d{2}-\d{4}" placeholder="MM/DD/YYYY" id="dob" name="dob" required>
+            <input style="background-color: black; color: rgb(117, 115, 115); border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="text" pattern="\d{2}/\d{2}/\d{4}" placeholder="MM/DD/YYYY" id="dob" name="dob" required>
             <br>
+            
 
             <input style="  margin: 0px 10px;" type="radio" id="student" name="gender" value="student" required>
             <label style=" padding: 10px; margin: 0px -10px;" for="student">Student</label>
