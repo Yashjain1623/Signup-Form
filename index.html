@@ -10,51 +10,34 @@
 </head>
 <body>
     <header>
-       
         <h1>Signup</h1>
     </header>
 
     <main>
-        
-        <form action="#" method="POST">
-            <input style="border-color: black;border: none; background-color: black; color: white; border-radius: 0;outline:none; padding: 10px; margin: 5px 0;" type="text" id="name" placeholder="Full Name" required>
-          
-
-<br>
-            
-            <input style="background-color: black; color:white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="email" id="email" placeholder="Email" required>
-
-          <br>
-            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="password" placeholder="Password" name="password" minlength="8" required>
+        <form action="#" method="GET">
+            <input style="border-color: black;border: none; background-color: black; color: white; border-radius: 0;outline:none; padding: 10px; margin: 5px 0;" type="text" id="name" name="name" placeholder="Full Name" required>
             <br>
-            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="confirm_password" placeholder="Confirm Password" name="confirm_password" required>
+            <input style="background-color: black; color:white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="email" id="email" name="email" placeholder="Email" required>
+            <br>
+            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="password" name="password" placeholder="Password" minlength="8" required>
+            <br>
+            <input style="background-color: black; color: white; border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
             <br>
             <input style="background-color: black; color: rgb(117, 115, 115); border: none; outline: none; border-radius: 0; padding: 10px; margin: 5px 0;" type="text" pattern="\d{2}/\d{2}/\d{4}" placeholder="MM/DD/YYYY" id="dob" name="dob" required>
             <br>
-            
-
-            <input style="  margin: 0px 10px;" type="radio" id="student" name="gender" value="student" required>
-            <label style=" padding: 10px; margin: 0px -10px;" for="student">Student</label>
-            
-            <input style=" margin: 0px 10px;" type="radio" id="employee" name="gender" value="employee" required>
-            <label style=" padding: 5px; margin: 0px -10px;" for="employee">Employee</label>
-
-          <br>
-            <input style=" margin: 0px 10px;" type="checkbox" id="agree" name="interests" value="agree" required>
-            <label  style="  padding: 10px; margin: 5px 0;" for="agree">I agree to all the Terms and conditions</label>
+            <input style="margin: 0px 10px;" type="radio" id="student" name="gender" value="student" required>
+            <label style="padding: 10px; margin: 0px -10px;" for="student">Student</label>
+            <input style="margin: 0px 10px;" type="radio" id="employee" name="gender" value="employee" required>
+            <label style="padding: 5px; margin: 0px -10px;" for="employee">Employee</label>
             <br>
-
-            
-
-            
+            <input style="margin: 0px 10px;" type="checkbox" id="agree" name="interests" value="agree" required>
+            <label style="padding: 10px; margin: 5px 0;" for="agree">I agree to all the Terms and conditions</label>
+            <br>
             <button style="width: 140px;height: 30px; margin: 0px 10px;" type="submit">Sign Up</button>
         </form>
     </main>
 
     <footer>
-        
     </footer>
-    
-
 </body>
 </html>
